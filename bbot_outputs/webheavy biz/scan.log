@@ -1,0 +1,136 @@
+2026-06-28 08:41:17,304 [HUGESUCCESS] bbot.scanner logger.py:151 Starting scan webheavy biz
+2026-06-28 08:41:19,797 [INFO] bbot.modules.nuclei base.py:1611 
+2026-06-28 08:41:19,797 [INFO] bbot.modules.nuclei base.py:1611                      __     _
+2026-06-28 08:41:19,797 [INFO] bbot.modules.nuclei base.py:1611    ____  __  _______/ /__  (_)
+2026-06-28 08:41:19,797 [INFO] bbot.modules.nuclei base.py:1611   / __ \/ / / / ___/ / _ \/ /
+2026-06-28 08:41:19,798 [INFO] bbot.modules.nuclei base.py:1611  / / / / /_/ / /__/ /  __/ /
+2026-06-28 08:41:19,798 [INFO] bbot.modules.nuclei base.py:1611 /_/ /_/\__,_/\___/_/\___/_/   v3.7.1
+2026-06-28 08:41:19,798 [INFO] bbot.modules.nuclei base.py:1611 
+2026-06-28 08:41:19,798 [INFO] bbot.modules.nuclei base.py:1611 		projectdiscovery.io
+2026-06-28 08:41:19,798 [INFO] bbot.modules.nuclei base.py:1611 
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[31mWRN[0m] Found 3 templates with runtime error (use -validate flag for further examination)
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Current nuclei version: v3.7.1 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Current nuclei-templates version: v10.4.5 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] New templates added in latest release: 86
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Templates loaded for current scan: 10447
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Executing 10430 signed templates from projectdiscovery/nuclei-templates
+2026-06-28 08:41:23,897 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Targets loaded for current scan: 1
+2026-06-28 08:41:23,926 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Templates clustered: 2389 (Reduced 2256 Requests)
+2026-06-28 08:41:24,724 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Using Interactsh Server: oast.me
+2026-06-28 08:41:29,196 [INFO] bbot.modules.nuclei base.py:1611 [0:00:05] | Templates: 10447 | Hosts: 1 | RPS: 94 | Matched: 0 | Errors: 2 | Requests: 500/18274 (2%)
+2026-06-28 08:41:32,336 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(1:1:0)
+2026-06-28 08:41:32,336 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:41:32,336 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (2,250 processed in the past 15 seconds)
+2026-06-28 08:41:34,194 [INFO] bbot.modules.nuclei base.py:1611 [0:00:10] | Templates: 10447 | Hosts: 1 | RPS: 141 | Matched: 0 | Errors: 792 | Requests: 1449/18274 (7%)
+2026-06-28 08:41:39,194 [INFO] bbot.modules.nuclei base.py:1611 [0:00:15] | Templates: 10447 | Hosts: 1 | RPS: 109 | Matched: 0 | Errors: 1049 | Requests: 1670/18274 (9%)
+2026-06-28 08:41:44,194 [INFO] bbot.modules.nuclei base.py:1611 [0:00:20] | Templates: 10447 | Hosts: 1 | RPS: 84 | Matched: 0 | Errors: 1070 | Requests: 1712/18274 (9%)
+2026-06-28 08:41:47,336 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(1:1:0)
+2026-06-28 08:41:47,336 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:41:47,337 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:41:49,193 [INFO] bbot.modules.nuclei base.py:1611 [0:00:25] | Templates: 10447 | Hosts: 1 | RPS: 93 | Matched: 0 | Errors: 1777 | Requests: 2364/18274 (12%)
+2026-06-28 08:41:54,194 [INFO] bbot.modules.nuclei base.py:1611 [0:00:30] | Templates: 10447 | Hosts: 1 | RPS: 108 | Matched: 0 | Errors: 2617 | Requests: 3270/18274 (17%)
+2026-06-28 08:41:59,194 [INFO] bbot.modules.nuclei base.py:1611 [0:00:35] | Templates: 10447 | Hosts: 1 | RPS: 99 | Matched: 0 | Errors: 2867 | Requests: 3497/18274 (19%)
+2026-06-28 08:42:02,338 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(1:1:0)
+2026-06-28 08:42:02,338 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:42:02,338 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:42:04,194 [INFO] bbot.modules.nuclei base.py:1611 [0:00:40] | Templates: 10447 | Hosts: 1 | RPS: 86 | Matched: 0 | Errors: 2871 | Requests: 3498/18274 (19%)
+2026-06-28 08:42:09,192 [INFO] bbot.modules.nuclei base.py:1611 [0:00:45] | Templates: 10447 | Hosts: 1 | RPS: 82 | Matched: 0 | Errors: 3089 | Requests: 3728/18274 (20%)
+2026-06-28 08:42:14,191 [INFO] bbot.modules.nuclei base.py:1611 [0:00:50] | Templates: 10447 | Hosts: 1 | RPS: 74 | Matched: 0 | Errors: 3108 | Requests: 3742/18274 (20%)
+2026-06-28 08:42:15,187 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Skipped bizmaxus.com:80 from target list as found unresponsive permanently: cause="i/o timeout" address=bizmaxus.com:80
+2026-06-28 08:42:17,338 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(1:1:0)
+2026-06-28 08:42:17,338 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:42:17,338 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:42:19,192 [INFO] bbot.modules.nuclei base.py:1611 [0:00:55] | Templates: 10447 | Hosts: 1 | RPS: 68 | Matched: 0 | Errors: 3157 | Requests: 3797/18274 (20%)
+2026-06-28 08:42:24,192 [INFO] bbot.modules.nuclei base.py:1611 [0:01:00] | Templates: 10447 | Hosts: 1 | RPS: 63 | Matched: 0 | Errors: 3165 | Requests: 3804/18274 (20%)
+2026-06-28 08:42:29,191 [INFO] bbot.modules.nuclei base.py:1611 [0:01:05] | Templates: 10447 | Hosts: 1 | RPS: 58 | Matched: 0 | Errors: 3171 | Requests: 3807/18274 (20%)
+2026-06-28 08:42:32,339 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(1:1:0)
+2026-06-28 08:42:32,339 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:42:32,339 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:42:32,520 [INFO] bbot.modules.nuclei base.py:1611 [0:01:09] | Templates: 10447 | Hosts: 1 | RPS: 55 | Matched: 0 | Errors: 3171 | Requests: 3807/18274 (20%)
+2026-06-28 08:42:32,520 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Scan completed in 1m. 0 matches found.
+2026-06-28 08:42:32,522 [INFO] bbot.modules.nuclei base.py:1611 [0:01:09] | Templates: 10447 | Hosts: 1 | RPS: 55 | Matched: 0 | Errors: 3171 | Requests: 3807/18274 (20%)
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611 
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611                      __     _
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611    ____  __  _______/ /__  (_)
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611   / __ \/ / / / ___/ / _ \/ /
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611  / / / / /_/ / /__/ /  __/ /
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611 /_/ /_/\__,_/\___/_/\___/_/   v3.7.1
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611 
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611 		projectdiscovery.io
+2026-06-28 08:42:32,729 [INFO] bbot.modules.nuclei base.py:1611 
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[31mWRN[0m] Found 3 templates with runtime error (use -validate flag for further examination)
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Current nuclei version: v3.7.1 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Current nuclei-templates version: v10.4.5 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] New templates added in latest release: 86
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Templates loaded for current scan: 10447
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Executing 10430 signed templates from projectdiscovery/nuclei-templates
+2026-06-28 08:42:35,732 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Targets loaded for current scan: 1
+2026-06-28 08:42:35,761 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Templates clustered: 2389 (Reduced 2256 Requests)
+2026-06-28 08:42:36,441 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Using Interactsh Server: oast.me
+2026-06-28 08:42:41,018 [INFO] bbot.modules.nuclei base.py:1611 [0:00:05] | Templates: 10447 | Hosts: 1 | RPS: 188 | Matched: 0 | Errors: 797 | Requests: 989/18274 (5%)
+2026-06-28 08:42:46,016 [INFO] bbot.modules.nuclei base.py:1611 [0:00:10] | Templates: 10447 | Hosts: 1 | RPS: 159 | Matched: 0 | Errors: 1542 | Requests: 1632/18274 (8%)
+2026-06-28 08:42:47,341 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2026-06-28 08:42:47,341 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:42:47,341 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (1 processed in the past 15 seconds)
+2026-06-28 08:42:51,016 [INFO] bbot.modules.nuclei base.py:1611 [0:00:15] | Templates: 10447 | Hosts: 1 | RPS: 154 | Matched: 0 | Errors: 2297 | Requests: 2356/18274 (12%)
+2026-06-28 08:42:56,016 [INFO] bbot.modules.nuclei base.py:1611 [0:00:20] | Templates: 10447 | Hosts: 1 | RPS: 163 | Matched: 0 | Errors: 3178 | Requests: 3310/18274 (18%)
+2026-06-28 08:43:01,016 [INFO] bbot.modules.nuclei base.py:1611 [0:00:25] | Templates: 10447 | Hosts: 1 | RPS: 160 | Matched: 0 | Errors: 3847 | Requests: 4042/18274 (22%)
+2026-06-28 08:43:02,342 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2026-06-28 08:43:02,342 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:43:02,342 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:43:06,016 [INFO] bbot.modules.nuclei base.py:1611 [0:00:30] | Templates: 10447 | Hosts: 1 | RPS: 135 | Matched: 0 | Errors: 3917 | Requests: 4104/18274 (22%)
+2026-06-28 08:43:11,014 [INFO] bbot.modules.nuclei base.py:1611 [0:00:35] | Templates: 10447 | Hosts: 1 | RPS: 122 | Matched: 0 | Errors: 4134 | Requests: 4320/18274 (23%)
+2026-06-28 08:43:16,014 [INFO] bbot.modules.nuclei base.py:1611 [0:00:40] | Templates: 10447 | Hosts: 1 | RPS: 108 | Matched: 0 | Errors: 4174 | Requests: 4350/18274 (23%)
+2026-06-28 08:43:17,342 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2026-06-28 08:43:17,342 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:43:17,342 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:43:21,015 [INFO] bbot.modules.nuclei base.py:1611 [0:00:45] | Templates: 10447 | Hosts: 1 | RPS: 104 | Matched: 0 | Errors: 4439 | Requests: 4709/18274 (25%)
+2026-06-28 08:43:26,014 [INFO] bbot.modules.nuclei base.py:1611 [0:00:50] | Templates: 10447 | Hosts: 1 | RPS: 103 | Matched: 0 | Errors: 5006 | Requests: 5222/18274 (28%)
+2026-06-28 08:43:31,015 [INFO] bbot.modules.nuclei base.py:1611 [0:00:55] | Templates: 10447 | Hosts: 1 | RPS: 94 | Matched: 0 | Errors: 5034 | Requests: 5242/18274 (28%)
+2026-06-28 08:43:32,344 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2026-06-28 08:43:32,344 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:43:32,344 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:43:36,015 [INFO] bbot.modules.nuclei base.py:1611 [0:01:00] | Templates: 10447 | Hosts: 1 | RPS: 88 | Matched: 0 | Errors: 5146 | Requests: 5329/18274 (29%)
+2026-06-28 08:43:37,118 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Skipped bizmaxus.com:443 from target list as found unresponsive permanently: cause="i/o timeout" address=bizmaxus.com:443
+2026-06-28 08:43:41,014 [INFO] bbot.modules.nuclei base.py:1611 [0:01:05] | Templates: 10447 | Hosts: 1 | RPS: 83 | Matched: 0 | Errors: 5263 | Requests: 5448/18274 (29%)
+2026-06-28 08:43:46,013 [INFO] bbot.modules.nuclei base.py:1611 [0:01:10] | Templates: 10447 | Hosts: 1 | RPS: 78 | Matched: 0 | Errors: 5365 | Requests: 5548/18274 (30%)
+2026-06-28 08:43:47,344 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2026-06-28 08:43:47,344 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:43:47,344 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:43:51,013 [INFO] bbot.modules.nuclei base.py:1611 [0:01:15] | Templates: 10447 | Hosts: 1 | RPS: 76 | Matched: 0 | Errors: 5539 | Requests: 5726/18274 (31%)
+2026-06-28 08:43:55,797 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Skipped bizmaxus.com:443 from target list as found unresponsive permanently: cause="i/o timeout" address=bizmaxus.com:443
+2026-06-28 08:43:56,013 [INFO] bbot.modules.nuclei base.py:1611 [0:01:20] | Templates: 10447 | Hosts: 1 | RPS: 71 | Matched: 0 | Errors: 5583 | Requests: 5763/18274 (31%)
+2026-06-28 08:43:59,229 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Skipped bizmaxus.com:443 from target list as found unresponsive permanently: cause="i/o timeout" address=bizmaxus.com:443 chain="got err while executing https://bizmaxus.com/wp-admin/admin-ajax.php"
+2026-06-28 08:44:01,014 [INFO] bbot.modules.nuclei base.py:1611 [0:01:25] | Templates: 10447 | Hosts: 1 | RPS: 68 | Matched: 0 | Errors: 5695 | Requests: 5859/18274 (32%)
+2026-06-28 08:44:02,345 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2026-06-28 08:44:02,345 [INFO] bbot.scanner scanner.py:1191 webheavy biz: Events produced so far: DNS_NAME: 10, OPEN_TCP_PORT: 2, FINDING: 2, URL: 2, SCAN: 1, ORG_STUB: 1, EMAIL_ADDRESS: 1, VULNERABILITY: 1
+2026-06-28 08:44:02,345 [INFO] bbot.scanner scanner.py:1191 webheavy biz: No events in queue (0 processed in the past 15 seconds)
+2026-06-28 08:44:06,013 [INFO] bbot.modules.nuclei base.py:1611 [0:01:30] | Templates: 10447 | Hosts: 1 | RPS: 64 | Matched: 0 | Errors: 5701 | Requests: 5865/18274 (32%)
+2026-06-28 08:44:11,012 [INFO] bbot.modules.nuclei base.py:1611 [0:01:35] | Templates: 10447 | Hosts: 1 | RPS: 61 | Matched: 0 | Errors: 5729 | Requests: 5892/18274 (32%)
+2026-06-28 08:44:13,810 [INFO] bbot.modules.nuclei base.py:1611 [0:01:38] | Templates: 10447 | Hosts: 1 | RPS: 60 | Matched: 0 | Errors: 5729 | Requests: 5892/18274 (32%)
+2026-06-28 08:44:13,810 [INFO] bbot.modules.nuclei base.py:1611 [[34mINF[0m] Scan completed in 1m. No results found.
+2026-06-28 08:44:13,811 [INFO] bbot.modules.nuclei base.py:1611 [0:01:38] | Templates: 10447 | Hosts: 1 | RPS: 60 | Matched: 0 | Errors: 5729 | Requests: 5892/18274 (32%)
+2026-06-28 08:44:13,950 [INFO] bbot.scanner scanner.py:790 Finishing scan
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | Module                | Produced                        | Consumed                                 |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +=======================+=================================+==========================================+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | speculate             | 3 (2 OPEN_TCP_PORT, 1 ORG_STUB) | 113 (18 DNS_NAME, 2 DNS_NAME_UNRESOLVED, |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 |                       |                                 | 2 HTTP_RESPONSE, 1 IP_ADDRESS, 2 URL, 88 |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 |                       |                                 | URL_UNVERIFIED)                          |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | host                  | 3 (3 DNS_NAME)                  | 0                                        |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | oauth                 | 2 (2 FINDING)                   | 15 (5 DNS_NAME, 10 URL_UNVERIFIED)       |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | httpx                 | 2 (2 URL)                       | 2 (2 OPEN_TCP_PORT)                      |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | NS                    | 2 (2 DNS_NAME)                  | 0                                        |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | excavate              | 2 (1 DNS_NAME, 1 EMAIL_ADDRESS) | 2 (2 HTTP_RESPONSE)                      |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | baddns                | 1 (1 VULNERABILITY)             | 1 (1 DNS_NAME)                           |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | SOA                   | 1 (1 DNS_NAME)                  | 0                                        |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 | TXT                   | 1 (1 DNS_NAME)                  | 0                                        |
+2026-06-28 08:44:14,246 [INFO] bbot.modules.aggregate base.py:1611 +-----------------------+---------------------------------+------------------------------------------+

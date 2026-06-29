@@ -1,0 +1,13 @@
+description: auto_scan
+config:
+  modules:
+    neo4j:
+      uri: bolt://bbot-neo4j-db:7687
+      username: neo4j
+      password: BBotAutoPass2026
+flags:
+- cloud-enum
+output_modules:
+- csv
+- neo4j
+scan_name: auto_scan
